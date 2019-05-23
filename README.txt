@@ -1,7 +1,7 @@
 DYNUCB: Dynamic Upper Confidence Bound
 --------------------------------------
 
-INTRODUCTION: 
+##INTRODUCTION: 
 
 - This is an implementation in java for the paper "Dynamic Clustering of Contextual Multi-Armed Bandits" (Nguyen & Lauw, CIKM 2014)
 
@@ -23,12 +23,12 @@ with arguments in order below:
 - 5th(optional): the number of clusters (default 16-clusters) in case of choosing DynUCB algorithm
 
 
-Examples:
+##Examples
 - Running DynUCB algorithm on Delicious dataset with 16 clusters, 10 threads, 50000 iterations.
 java -Xmx4G -jar cikm.jar 3 1 10 50000 16
 
 
-HOW TO CITE:
+##HOW TO CITE:
 
 If you use DynUCB in your research, please cite the paper with the bibtex format below:
 
