@@ -3,7 +3,7 @@ DYNUCB: Dynamic Upper Confidence Bound
 
 ### INTRODUCTION: 
 
-- This is an implementation in java for the paper "Dynamic Clustering of Contextual Multi-Armed Bandits" (Nguyen & Lauw, CIKM 2014)
+- This is an implementation in java for our paper "Dynamic Clustering of Contextual Multi-Armed Bandits" (Nguyen & Lauw, CIKM 2014)
 
 
 The folder includes:
@@ -32,11 +32,12 @@ java -Xmx4G -jar cikm.jar 3 1 10 50000 16
 
 If you use DynUCB in your research, please cite the paper with the bibtex format below:
 
-@inproceedings{nguyen2014dynamic,
-  title={Dynamic clustering of contextual multi-armed bandits},
-  author={Nguyen, Trong T and Lauw, Hady W},
-  booktitle={Proceedings of the 23rd ACM International Conference on Conference on Information and Knowledge Management},
-  pages={1959--1962},
-  year={2014},
-  organization={ACM}
+@inproceedings{\
+  &nbsp;&nbsp;&nbsp; nguyen2014dynamic,\
+  &nbsp;&nbsp;&nbsp; title={Dynamic clustering of contextual multi-armed bandits},\
+  &nbsp;&nbsp;&nbsp; author={Nguyen, Trong T and Lauw, Hady W},\
+  &nbsp;&nbsp;&nbsp; booktitle={Proceedings of the 23rd ACM International Conference on Conference on Information and Knowledge Management},\
+  &nbsp;&nbsp;&nbsp; pages={1959--1962},\
+  &nbsp;&nbsp;&nbsp; year={2014},\
+  &nbsp;&nbsp;&nbsp; organization={ACM}\
 }
