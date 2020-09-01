@@ -13,7 +13,9 @@ The folder includes:
 
 
 *** Run from terminal:
+```
 java -Xmx4G -jar cikm.jar [args]
+```
 
 with arguments in order below:
 - 1st: algorithm selection (1-LinUCBSIN; 2-LinUCBIND; 3-DynUCB)
@@ -24,9 +26,10 @@ with arguments in order below:
 
 
 ### Examples
-- Running DynUCB algorithm on Delicious dataset with 16 clusters, 10 threads, 50000 iterations.
+- Running DynUCB algorithm on Delicious dataset with 16 clusters, 10 threads, 50000 iterations.\
+```
 java -Xmx4G -jar cikm.jar 3 1 10 50000 16
-
+```
 
 ### HOW TO CITE:
 
